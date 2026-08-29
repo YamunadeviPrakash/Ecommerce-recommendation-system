@@ -1,0 +1,41 @@
+======================================================================
+E-COMMERCE RECOMMENDATION SYSTEM - ANALYSIS SUMMARY
+======================================================================
+
+Total interactions analyzed: 150,000
+Unique users:                4,999
+Unique products:             1,999
+
+-- Interaction Type Breakdown --
+  view           :   75,215  (50.14%)
+  click          :   44,989  (29.99%)
+  add_to_cart    :   22,217  (14.81%)
+  purchase       :    7,579  ( 5.05%)
+
+Product 'P1843' has the highest number of interactions (102).
+Category 'Apparel' accounts for the largest share of interactions (20.08%).
+Purchase interactions represent 5.05% of all recorded interactions.
+
+-- Price Statistics --
+  Mean price:   251.68
+  Median price: 251.31
+  Min / Max:    5.00 / 500.00
+
+-- Top 5 Products by Interaction Count --
+  P1843      : 102 interactions
+  P1026      : 100 interactions
+  P0729      : 100 interactions
+  P1146      : 99 interactions
+  P1042      : 99 interactions
+
+-- Model Evaluation (Leave-One-Out) --
+  K= 5  Precision@K=0.0000  Recall@K=0.0000  HitRate@K=0.0000  (evaluated on 500 users)
+  K=10  Precision@K=0.0004  Recall@K=0.0040  HitRate@K=0.0040  (evaluated on 500 users)
+
+-- Business Recommendations --
+  1. Personalize product recommendations per customer using the collaborative filtering model.
+  2. Cross-sell related products within a customer's most-engaged categories.
+  3. Prioritize marketing/promotions around top-performing products and categories.
+  4. Investigate high-view / low-purchase products to improve conversion.
+
+======================================================================
